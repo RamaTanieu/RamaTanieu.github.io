@@ -1,0 +1,23 @@
+body {color: black;
+		background: red;
+		text-align: left;}
+header {text-align: center;}
+nav a {list-style-type: none;
+		text-align: center;
+		display: inline;
+		font-weight: bold;}
+h1 {text-align: center;}
+h2 {text-align: left;}
+.sub {text-align: left;}
+.wrapper {width: 750px;
+		margin-left: auto;
+		margin-right: auto;}
+.text {line-height: 200%;
+		font-size: large;
+		text-align: left;}
+p {line-height: 200%;
+	font-size: large;
+	text-align: left;}
+footer {text-align: center;}
+#survey {text-align: left;
+		width: 50%;}
