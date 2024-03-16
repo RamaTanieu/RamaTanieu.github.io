@@ -1,24 +1,98 @@
-body {color: black;
-		background: orange;
-		text-align: left;}
-header {text-align: center;}
-nav a {list-style-type: none;
-		text-align: center;
-		display: inline;
-		font-weight: bold;}
-h1 {text-align: center;}
-h2 {text-align: left;}
-.sub {text-align: left;}
-.wrapper {width: 750px;
-		margin-left: auto;
-		margin-right: auto;}
-.text {line-height: 200%;
-		font-size: large;
-		text-align: left;}
-p {line-height: 200%;
-	font-size: large;
-	text-align: left;}
-footer {text-align: center;}
-#survey {text-align: left;
-		width: 50%;}
+*{
+	color: #EAE8FF;
+	font-family: Palantino;
+	box-sizing: border-box;
+	margin: auto;
+}
+body{
+	min-width: 600px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #375fab;
+	padding: auto;
+}
+header{
+	text-align: center;
+	background-color: #1B4965;
+}
+nav{
+	background-color: #325157;
+	border: 1px solid;
+	margin: auto;
+	font-size: 18px;
+	padding: 10px;
+	text-align: center;
+}
+nav a{
+	padding: 10px;
+	margin: auto;
+}
+main{
+	background-color: #1B4965;
+	padding: 40px;
+}
+div{
+	background-color: #1B4965;
+	padding: 40px;
+}
+h1{
+	color: #70dafa;
+	font-family: Georgia;
+	padding: 5px;
+}
+h2{
+	color: #74dbd9;
+}
+h3{
+	text-align:center;
+	color: #74dbd9;
+}
+p{
+	margin: auto;
+	font-size: 16px;
+	width: 100%;
+	text-align: left;
+}
+a{
+	text-decoration: none;
+	color: #5FA8D3;
+	margin: auto;
+	text-align: center;
+	
+}
+a:link{
+	text-decoration: none;
+	color: #EAE8FF;
+}
+a:visited{
+	text-decoration: none;
+	color: #EAE8FF;
+}
+img{
+	padding: 10px;
+	margin:auto;
+	text-align: center;
 
+}
+.validation{
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content:center;
+}
+figure{
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	font-size: 18px;
+}
+figcaption{
+	text-align: center;
+	margin: auto;
+}
+footer{
+	text-align: center;
+	margin: auto;
+}
