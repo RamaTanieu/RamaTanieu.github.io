@@ -1,5 +1,5 @@
 *{
-	color: #EAE8FF;
+	color: #C83F49;
 	font-family: Palantino;
 	box-sizing: border-box;
 	margin: auto;
@@ -9,15 +9,15 @@ body{
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #375fab;
+	background-color: #004225;
 	padding: auto;
 }
 header{
 	text-align: center;
-	background-color: #1B4965;
+	background-color: #325157;
 }
 nav{
-	background-color: #325157;
+	background-color: #1B4965;
 	border: 1px solid;
 	margin: auto;
 	font-size: 18px;
