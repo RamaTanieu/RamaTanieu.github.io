@@ -1,5 +1,5 @@
 *{
-	color: #C83F49;
+	color: #EAE8FF;
 	font-family: Palantino;
 	box-sizing: border-box;
 	margin: auto;
@@ -9,15 +9,15 @@ body{
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #C24641;
+	background-color: #375fab;
 	padding: auto;
 }
 header{
 	text-align: center;
-	background-color: #C24641;
+	background-color: #1B4965;
 }
 nav{
-	background-color: #DC381F;
+	background-color: #325157;
 	border: 1px solid;
 	margin: auto;
 	font-size: 18px;
@@ -29,24 +29,24 @@ nav a{
 	margin: auto;
 }
 main{
-	background-color: #C24641;
+	background-color: #1B4965;
 	padding: 40px;
 }
 div{
-	background-color: #C24641;
+	background-color: #1B4965;
 	padding: 40px;
 }
 h1{
-	color: #DC381F;
+	color: #70dafa;
 	font-family: Georgia;
 	padding: 5px;
 }
 h2{
-	color: #DC381F;
+	color: #74dbd9;
 }
 h3{
 	text-align:center;
-	color: #DC381F;
+	color: #74dbd9;
 }
 p{
 	margin: auto;
@@ -56,18 +56,18 @@ p{
 }
 a{
 	text-decoration: none;
-	color: #DC381F;
+	color: #5FA8D3;
 	margin: auto;
 	text-align: center;
 	
 }
 a:link{
 	text-decoration: none;
-	color: #C83F49;
+	color: #EAE8FF;
 }
 a:visited{
 	text-decoration: none;
-	color: #C83F49;
+	color: #EAE8FF;
 }
 img{
 	padding: 10px;
