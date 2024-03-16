@@ -17,7 +17,7 @@ header{
 	background-color: #325157;
 }
 nav{
-	background-color: #1B4965;
+	background-color: #004225;
 	border: 1px solid;
 	margin: auto;
 	font-size: 18px;
@@ -29,11 +29,11 @@ nav a{
 	margin: auto;
 }
 main{
-	background-color: #1B4965;
+	background-color: #004225;
 	padding: 40px;
 }
 div{
-	background-color: #1B4965;
+	background-color: #004225;
 	padding: 40px;
 }
 h1{
