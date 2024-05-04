@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
@@ -19,12 +16,12 @@ session_start();
 		<header>
 		<h1>Rama Tanieu | Avocet  | WEB250| WEB250</h1>
 		<nav>
-			<a href="index.php?page=home">Home</a> |
-			<a href="index.php?page=introduction">Introduction</a> |
-			<a href="index.php?page=contract">Contract</a> |
-			<a href="index.php?page=brand">Brand</a> |
-			<a href="index.php?page=forms">Forms</a> |
-			<a href="index.php?page=fizbuzz">Fizz Buzz</a>
+			 <li><a href="?p=contents/home.php">Home</a></li>
+                    <li><a href="?p=contents/introduction.php">Introduction</a></li>
+                    <li><a href="?p=contents/contract.php">Contract</a></li>
+                    <li><a href="?p=contents/brand.php">Brand</a></li>
+                    <li><a href="?p=contents/form.php">Form</a></li>
+			 <li><a href="?p=contents/fizzbuzzbang.php">Form</a></li>
 		</nav>
 
 		</header>
