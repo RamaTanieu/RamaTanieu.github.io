@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
@@ -21,7 +24,9 @@
                     <li><a href="?p=contents/contract.php">Contract</a></li>
                     <li><a href="?p=contents/brand.php">Brand</a></li>
                     <li><a href="?p=contents/form.php">Form</a></li>
-			 <li><a href="?p=contents/fizzbuzzbang.php">Form</a></li>
+			<li><a href="?p=contents/fizzbuzzbang.php">FizzBuzzBang</a></li>
+			 <?php
+		
 		</nav>
 
 		</header>
