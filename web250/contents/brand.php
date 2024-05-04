@@ -1,4 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Rama Tanieu's | introduction |</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="Styles/default.css" type="text/css" rel="Stylesheet">
+	</head>
 
+	<body>
+		<header>
+		<h1>Rama Tanieu | Avocet  | WEB250|</h1>
+		<nav>
+			<a href="index.html">Home</a> |
+			<a href="introduction.html">Introduction</a> |
+			<a href="contract.html">Contract</a> |
+			<a href="brand.html">Brand</a>
+		</nav>
+		</header>
+		<main>
+			<h2> Brand </h2>
+			
+			<h3>Ramset Cosmetic </h3>
+			
+			<p> Your well being is our mission, we are here to help. Brigthening, unifying and nourishing your skin. We have the perfect skin care products that will leave your skin soft, radiant, luminous and confortable.</p>
+			
+			
+			<h4>Color & Fonts</h4>
+			<ul>
+				<li>defaults</li>
+				<ul>
+					<li>background color: #004225</li>
+					<li>text color: #C83F49</li>
+					<li>font: Palantino</li>
+				</ul>
+				<li>header and div </li>
+				<ul>
+					<li>background color: #004225</li>
+				</ul>
+				<li>h1</li>
+				<ul>
+					<li>text color: #C83F49</li>
+					<li>font: Georgia</li>
+				</ul>
+				<li>h2,h3 and h4</li>
+				<ul>
+					<li>text color: #BEE9E8</li>
+				</ul>
+			</ul>
+		</main>
+		
+		<footer> 
+		<nav>
+			<a href="https://github.com/RamaTanieu">GitHub</a> |
+			<a href="https://ramatanieuj.github.io">GitHub.io</a> |
+			<a href="https://ramatanieu.github.io/web250.io/">WEB250.io</a> |
+			<a href="https://www.codecademy.com/profiles/ramatanieu">Codecademy</a> |
+			<a href="https://www.freecodecamp.org/ramatanieu">FreeCodeCamp</a> |
+			<a href="https://jsfiddle.net/user/ramatanieu/fiddles/">JSFiddle</a> 
+			
+		</nav>
+		<a href="https://validator.w3.org/check?uri=https://RamaTanieu.github.io/web250.io/introduction.html">
+		  <img src="Images/html_validation_button.gif" alt="Validate HTML">
+		</a>
+		 
+		<a href="http://jigsaw.w3.org/css-validator/validator?uri=https://RamaTanieu.github.io/web250.io/introduction.html">
+		 <img src="Images/validation_button_css_rectangle_blue.gif" alt="Validate CSS">
+		</a>
+		</footer>
+	</body>
+</html>
 <h2 class="alignCenter">Brackett's PC Builders</h2>
 <h3 class="alignCenter">To build the pc you need</h3>
 
