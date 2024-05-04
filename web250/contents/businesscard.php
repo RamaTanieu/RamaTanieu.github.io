@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles/default.css" type="text/css" rel="stylesheet">
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="Styles/default.css" type="text/css" rel="Stylesheet">
 <title>Business Card</title>
 <style>
   body {
@@ -49,7 +49,7 @@ $name = "Rama Tanieu";
 $title = "Database Management Student";
 $phone = "980-456-7890";
 $email = "fouatta0@email.cpcc.edu";
-$website = "www.example.com";
+$website = "www.ramset.com";
 ?>
 
 <div class="card">
