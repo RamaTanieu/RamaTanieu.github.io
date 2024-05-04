@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang = "en">
-	<head>
-		<title>Rama Tanieu's | introduction |</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link href="Styles/default.css" type="text/css" rel="Stylesheet">
-	</head>
-
-	<body>
-		<header>
-		<h1>Rama Tanieu | Avocet  | WEB250|</h1>
-		<nav>
-			<a href="index.html">Home</a> |
-			<a href="introduction.html">Introduction</a> |
-			<a href="contract.html">Contract</a> |
-			<a href="brand.html">Brand</a>
-		</nav>
-		</header>
-		<main>
-		<h2>Introduction - Rama Tanieu</h2>
-		<figure>
-			<img src="Images/Images.jpeg" alt="Images" width="300" hight="400">
-			<figcaption>Seating at the BMW waiting room</figcaption>
+<figure>
+	<img src="Images/Images.jpeg" alt="profile picture">
+			<figcaption> Seating at the BMW waiting room </figcaption>
 		</figure>
 		
 		<ul>
@@ -36,25 +16,3 @@
 			</ul></li>
 			<li><strong>Funny/Interesting Item to Remember me by:</strong> people think I cannot be serious because I am always joking around..</li>
 		</ul>
-		</main>
-		
-		<footer> 
-		<nav>
-			<a href="https://github.com/RamaTanieu">GitHub</a> |
-			<a href="https://ramatanieuj.github.io">GitHub.io</a> |
-			<a href="https://ramatanieu.github.io/web250.io/">WEB250.io</a> |
-			<a href="https://www.codecademy.com/profiles/ramatanieu">Codecademy</a> |
-			<a href="https://www.freecodecamp.org/ramatanieu">FreeCodeCamp</a> |
-			<a href="https://jsfiddle.net/user/ramatanieu/fiddles/">JSFiddle</a> 
-			
-		</nav>
-		<a href="https://validator.w3.org/check?uri=https://RamaTanieu.github.io/web250.io/introduction.html">
-		  <img src="Images/html_validation_button.gif" alt="Validate HTML">
-		</a>
-		 
-		<a href="http://jigsaw.w3.org/css-validator/validator?uri=https://RamaTanieu.github.io/web250.io/introduction.html">
-		 <img src="Images/validation_button_css_rectangle_blue.gif" alt="Validate CSS">
-		</a>
-		</footer>
-	</body>
-</html>
