@@ -1,105 +1,84 @@
+<form action = "" method = "POST">	
+	<table>
+	<tr>
+		<td> Name:</td>
+		<td><input class="inputs" type = "text" size = "20" name = "Name" value="Rama" required></td>
+		
+	</tr>
+	<tr>
+		<td>Starting Frequency:</td>
+		<td><input name="sRange" class="inputs" type="number" value="1" min="0" required>
+		<td>Ending Frequency:</td>
+		<td><input name="eRange" class="inputs" type="number" value="120" min="10" required></td>
+	</tr>
+	<tr>
+		<td>Number for Fizz:</td>
+		<td><input name="echo1" class="inputs" type="number" value="6" required></td>
+		<td>Word for Fizz:</td>
+		<td><input name="callb1" class="inputs" type="text" value="Fizz" required></td>
+	</tr>
+	<tr>
+		<td>Number for Buzz:</td>
+		<td><input name="echo2" class="inputs" type="number" value="5" required></td>
+		<td>Word for Buzz:</td>
+		<td><input name="callb2" class="inputs" type="text" value="Buzz" required></td>
+	</tr>
+	<tr>
+		<td>Number for Bang:</td>
+		<td><input name="echo3" class="inputs" type="number" value="7" required></td>
+		<td>Word for Bang:</td>
+		<td><input name="callb3" class="inputs" type="text" value="Bang" required></td>
+	</tr>
+	<tr>
+		<td><input class="inputs" type = "submit" value = "Generate Results"></td>
+	</tr>
+	</table>
+</form>
+
 <?php
-    if(isset($_POST['submit'])) {
-        $name = isset($_POST['name']) ? $_POST['name'] : 'Rama';
-        $start = isset($_POST['start']) ? $_POST['start'] : 1;
-        $end = isset($_POST['end']) ? $_POST['end'] : 130; 
-        $fizz_word = isset($_POST['fizz_word']) ? $_POST['fizz_word'] : 'fizz';
-        $fizz_num = isset($_POST['fizz_num']) ? $_POST['fizz_num'] : 3;
-        $buzz_word = isset($_POST['buzz_word']) ? $_POST['buzz_word'] : 'buzz';
-        $buzz_num = isset($_POST['buzz_num']) ? $_POST['buzz_num'] : 5;
-        $bang_word = isset($_POST['bang_word']) ? $_POST['bang_word'] : 'bang';
-        $bang_num = isset($_POST['bang_num']) ? $_POST['bang_num'] : 7;
-    ?>
-
-    <h2>FizzBuzzBang</h2>
-  
-    
-
-    <div class="container">
-        <div class="form-container">
-            <!-- Form -->
-            <form method="post" action=""><br><br>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" value="<?php echo isset($_POST['name']) ? htmlspecialchars($_POST['name']) : 'Rama'; ?>"><br><br>
-                <label for="start">Starting Number:</label>
-                <input type="number" id="start" name="start" value="<?php echo isset($_POST['start']) ? $_POST['start'] : 1; ?>"><br><br> 
-                <label for="end">Ending Number:</label>
-                <input type="number" id="end" name="end" value="<?php echo isset($_POST['end']) ? $_POST['end'] : 105; ?>"><br><br> 
-                <label for="fizz_word">Word for Fizz:</label>
-                <input type="text" id="fizz_word" name="fizz_word" value="<?php echo isset($_POST['fizz_word']) ? htmlspecialchars($_POST['fizz_word']) : 'fizz'; ?>"><br><br>
-                <label for="fizz_num">Number for Fizz:</label>
-                <input type="number" id="fizz_num" name="fizz_num" value="<?php echo isset($_POST['fizz_num']) ? $_POST['fizz_num'] : 3; ?>"><br><br>
-                <label for="buzz_word">Word for Buzz:</label>
-                <input type="text" id="buzz_word" name="buzz_word" value="<?php echo isset($_POST['buzz_word']) ? htmlspecialchars($_POST['buzz_word']) : 'buzz'; ?>"><br><br>
-                <label for="buzz_num">Number for Buzz:</label>
-                <input type="number" id="buzz_num" name="buzz_num" value="<?php echo isset($_POST['buzz_num']) ? $_POST['buzz_num'] : 5; ?>"><br><br>
-                <label for="bang_word">Word for Bang:</label>
-                <input type="text" id="bang_word" name="bang_word" value="<?php echo isset($_POST['bang_word']) ? htmlspecialchars($_POST['bang_word']) : 'bang'; ?>"><br><br>
-                <label for="bang_num">Number for Bang:</label>
-                <input type="number" id="bang_num" name="bang_num" value="<?php echo isset($_POST['bang_num']) ? $_POST['bang_num'] : 7; ?>"><br><br>
-                <input type="submit" name="submit" value="Generate Results">
-            </form>
-        </div>
-
-        <div class="result-container">       
-    <!-- Results -->
-    <h4>Hello, <?php echo $name; ?>!</h4>
-    <p>Your results are:</p>
-    <div class="result">
-        <?php
-        $results = array();
-        for ($i = $start; $i <= $end; $i++) {
-            $output = '';
-            if ($i % $fizz_num == 0) {
-                $output .= $fizz_word . ' ';
-            }
-            if ($i % $buzz_num == 0) {
-                $output .= $buzz_word . ' ';
-            }
-            if ($i % $bang_num == 0) {
-                $output .= $bang_word . ' ';
-            }
-            if ($output === '') {
-                $output = $i;
-            }
-            $results[] = $output;
-        }
-        echo implode(', ', $results);
-        ?>
-    </div>
-</div>
-
-
-    </div>
-
-    <?php 
-    } else {
-    ?>
-    <h2>FizzBuzzBang</h2>
-    
-    
-
-    <!-- Form -->   
-    <form method="post" action="">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="<?php echo isset($_POST['name']) ? htmlspecialchars($_POST['name']) : 'Rama'; ?>"><br><br>
-        <label for="start">Starting Number:</label>
-        <input type="number" id="start" name="start" value="<?php echo isset($_POST['start']) ? $_POST['start'] : 1; ?>"><br><br> 
-        <label for="end">Ending Number:</label>
-        <input type="number" id="end" name="end" value="<?php echo isset($_POST['end']) ? $_POST['end'] : 111; ?>"><br><br> 
-        <label for="fizz_word">Word for Fizz:</label>
-        <input type="text" id="fizz_word" name="fizz_word" value="<?php echo isset($_POST['fizz_word']) ? htmlspecialchars($_POST['fizz_word']) : 'fizz'; ?>"><br><br>
-        <label for="fizz_num">Number for Fizz:</label>
-        <input type="number" id="fizz_num" name="fizz_num" value="<?php echo isset($_POST['fizz_num']) ? $_POST['fizz_num'] : 3; ?>"><br><br>
-        <label for="buzz_word">Word for Buzz:</label>
-        <input type="text" id="buzz_word" name="buzz_word" value="<?php echo isset($_POST['buzz_word']) ? htmlspecialchars($_POST['buzz_word']) : 'buzz'; ?>"><br><br>
-        <label for="buzz_num">Number for Buzz:</label>
-        <input type="number" id="buzz_num" name="buzz_num" value="<?php echo isset($_POST['buzz_num']) ? $_POST['buzz_num'] : 5; ?>"><br><br>
-        <label for="bang_word">Word for Bang:</label>
-        <input type="text" id="bang_word" name="bang_word" value="<?php echo isset($_POST['bang_word']) ? htmlspecialchars($_POST['bang_word']) : 'bang'; ?>"><br><br>
-        <label for="bang_num">Number for Bang:</label>
-        <input type="number" id="bang_num" name="bang_num" value="<?php echo isset($_POST['bang_num']) ? $_POST['bang_num'] : 7; ?>"><br><br>
-        <input type="submit" name="submit" value="Generate Results">
-    </form>
-
-    <?php } ?>
+	//keeps the PHP from running when page is loaded
+	if(!empty($_POST['fName']))
+	{
+		echo "<div>";
+		
+		$name = $_POST['fName'] . " " . $_POST['lName'];
+		echo "Hello $name, here is your results:<br>";
+		
+		//sets start and end ranges
+		$sRange = $_POST['sRange'];
+		$eRange = $_POST['eRange'];
+		
+		//checks if the ranges are valid
+		if($sRange >= $eRange)
+		{
+			echo "Invalid range";
+		}else
+		{
+			//sets array for $echoes from user form input
+			$echoes = [$_POST['echo1'], $_POST['echo2'], $_POST['echo3']];
+			//sets array for $callbacks from user form input
+			$callbacks = [$_POST['callb1'], $_POST['callb2'], $_POST['callb3']];
+			//loops from start range $sRange to end range eRange
+			foreach (range($sRange, $eRange) as $i) 
+			{
+				//sets $isEchoX to postion in callbacks array if there is no remainder. if false sets to ''
+				$isEcho1 = ($i % $echoes[0] === 0 ? $callbacks[0] : '');
+				$isEcho2 = ($i % $echoes[1] === 0 ? $callbacks[1] : '');
+				$isEcho3 = ($i % $echoes[2] === 0 ? $callbacks[2] : '');
+				
+				//if all $isEchos false ie all results had remainder add number to results array
+				if(!$isEcho1 && !$isEcho2 && !$isEcho3) 
+				{
+					$result[] = $i;
+				}else 
+				{	
+					//adds the results of each $isEcho to results array
+					$result[] = "$isEcho1 $isEcho2 $isEcho3";
+				}
+			}	
+		//prints the results array with a , seperating the data
+        echo implode(" , ", $result);
+		}
+		echo "</div>";
+	}
+?>
