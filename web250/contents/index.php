@@ -2,7 +2,7 @@
 <html lang = "en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-		<link rel = "stylesheet" type = "text/css" href = "styles/default.css" />
+		<link rel = "Stylesheet" type = "text/css" href = "Styles/default.css" />
 		<?php
 			$page = 'Home';
 		if (!empty($_GET['page'])) {
@@ -53,11 +53,11 @@
 	
 	<figure>
 	<a href="http://validator.w3.org/check?uri=referer">
-	  <img src="images/html_validation_button.gif" alt="Validate HTML">
+	  <img src="Images/html_validation_button.gif" alt="Validate HTML">
 	</a>
 	 
 	<a href="http://jigsaw.w3.org/css-validator/validator?uri=https://http://ramatanieu.infinityfreeapp.com/<?=$page?>">
-	 <img src="images/validation_button_css_rectangle_blue.gif" alt="Validate CSS" >
+	 <img src="Images/validation_button_css_rectangle_blue.gif" alt="Validate CSS" >
 	</a>
 	</figure>
 	</footer>
