@@ -1,9 +1,5 @@
-<main>
-    <h2>Home</h2>
-    <p>
-        Welcome to the home page of Rama Tanieu's WEB250 course.
-        There will be more to come. 
-        I hope you enjoy your visit.
-        Read more about me <a href="?p=contents/introduction.php">here</a>.
-    </p>
-</main>
+<p>This is my home page for my website for this course.</p>
+<p>this site is as of the spring 2024 semester still a work in progress.</p>
+<p>In the mean time feel fre to browse what I have finshed using the navbar above.</p>
+<p>to learn a bit more about me here is my introduction:</p>
+<a href="index.php?page=introduction" class="clickable">About me</a>
