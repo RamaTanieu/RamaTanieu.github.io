@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/default.css" type="text/css" rel="stylesheet">
+
 <title>Business Card</title>
 <style>
   body {
@@ -44,14 +46,13 @@
 <?php
 // Define variables with your information
 $name = "Rama Tanieu";
-$title = "CEO & Founder";
+$title = "Database Management Student";
 $phone = "980-456-7890";
 $email = "fouatta0@email.cpcc.edu";
 $website = "www.example.com";
 ?>
 
 <div class="card">
-  <img src="logo.png" alt="Company Logo" class="logo">
   <div class="name"><?php echo $name; ?></div>
   <div class="title"><?php echo $title; ?></div>
   <div class="contact">
