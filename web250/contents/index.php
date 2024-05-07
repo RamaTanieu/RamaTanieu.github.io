@@ -25,7 +25,7 @@ session_start();
                     <li><a href="?p=contents/brand.php">Brand</a></li>
                     <li><a href="?p=contents/form.php">Form</a></li>
 			<li><a href="?p=contents/fizzbuzzbang.php">FizzBuzzBang</a></li>
-			 <?php
+			
 		
 		</nav>
 
