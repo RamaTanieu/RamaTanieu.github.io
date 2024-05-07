@@ -46,7 +46,7 @@ session_start();
 	}
 	include $url;
 	?>
-	</main
+		</main>
 	<footer> 
 	<nav>
 		<a href="https://www.freecodecamp.org/ramatanieu">Freecodecamp</a> |
